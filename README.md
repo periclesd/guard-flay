@@ -8,17 +8,11 @@ Flay guard flays every file on change.
 
 Please be sure to have [Guard](https://github.com/guard/guard) installed before continue.
 
-Install the gem:
-
-```
-$ gem install guard-flay
-```
-
 Add it to your Gemfile (inside development group):
 
 ``` ruby
 group :development do
-  gem 'guard-flay'
+  gem 'guard-flay', git: 'git://github.com/pericles/guard-flay.git'
 end
 ```
 
@@ -49,8 +43,8 @@ Please read [Guard doc](https://github.com/guard/guard#readme) for more informat
 
 ## Development
 
-* Source hosted at [GitHub](https://github.com/guard/guard-flay)
-* Report issues/Questions/Feature requests on [GitHub Issues](https://github.com/guard/guard-flay/issues)
+* Source hosted at [GitHub](https://github.com/pericles/guard-flay)
+* Report issues/Questions/Feature requests on [GitHub Issues](https://github.com/pericles/guard-flay/issues)
 
 Pull requests are very welcome! Make sure your patches are well tested. Please create a topic branch for every separate change
 you make.

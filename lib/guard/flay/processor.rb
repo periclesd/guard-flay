@@ -10,6 +10,7 @@ module Guard
         files = ::Flay.expand_dirs_to_files(paths)
         flay.process(*files)
         flay.report
+        puts
       end
     end
   end

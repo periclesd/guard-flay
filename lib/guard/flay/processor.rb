@@ -3,7 +3,7 @@ require 'flay'
 module Guard
   class Flay
     class Processor
-      def process(paths)
+      def self.process(paths)
         UI.info "Running flay for files: '#{paths.join('\', \'')}'", reset: true
 
         flay = ::Flay.new(::Flay.parse_options)

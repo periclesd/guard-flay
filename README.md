@@ -1,4 +1,4 @@
-# Guard::Flay [![Dependency Status](https://gemnasium.com/pericles/guard-flay.png)](https://gemnasium.com/pericles/guard-flay)
+# Guard::Flay [![Dependency Status](https://gemnasium.com/pericles/guard-flay.png)](https://gemnasium.com/pericles/guard-flay) [![Code Climate](https://codeclimate.com/github/pericles/guard-flay.png)](https://codeclimate.com/github/pericles/guard-flay)
 
 Flay guard flays every file on change.
 

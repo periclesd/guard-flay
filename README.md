@@ -1,4 +1,4 @@
-# Guard::Flay
+# Guard::Flay [![Dependency Status](https://gemnasium.com/pericles/guard-flay.png)](https://gemnasium.com/pericles/guard-flay)
 
 Flay guard flays every file on change.
 

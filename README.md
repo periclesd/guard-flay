@@ -12,7 +12,7 @@ Add it to your Gemfile (inside development group):
 
 ``` ruby
 group :development do
-  gem 'guard-flay', git: 'git://github.com/pericles/guard-flay.git'
+  gem 'guard-flay'
 end
 ```
 
